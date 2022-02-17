@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+  -webkit-transition: color 200ms;
+  transition: color 200ms;
+}
+
+@media print {
+  .App .right .print-btn {
+    display: none;
+  }
+}
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  width: 100%;
+}
+
+.App .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 100vh;
+}
+
+.App .left input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.App .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+}
+
+.App .right .right-title {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #2F80ED;
+  margin-bottom: 0.6rem;
+  position: relative;
+}
+
+.App .right .para {
+  line-height: 1.4rem;
+  color: #718096;
+  font-size: 0.8rem;
+}
+
+.App .right .sect {
+  padding-bottom: 1rem;
+}
+
+.App .right .tl-title {
+  letter-spacing: 1px;
+  font-size: 1rem;
+  color: #002333;
+  text-transform: uppercase;
+}
+
+.App .right .tl-title-2 {
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  color: #2D9CDB;
+  text-transform: uppercase;
+}
+
+.App .right .tl-content {
+  border-left: 1px solid #ccc;
+  padding-left: 1rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.App .right .tl-title-2::before {
+  content: "";
+  position: absolute;
+  width: .7rem;
+  height: .7rem;
+  background-color: #2D9CDB;
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 0;
+}
+/*# sourceMappingURL=App.css.map */
+
+
+.border-gradient {
+  width: 150px;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 4px;
+}
+.border-gradient-purple {
+  border-image-source: linear-gradient(to left, #743ad5, #783785);
+}
+.border-gradient-green {
+  border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+}
+.border-gradient-red {
+  border-image-source: linear-gradient(to left, #aa9393, #ca0202);
+}
+.border-gradient-yellow {
+  border-image-source: linear-gradient(to left, #dae765, #e6d713);
+}
+
+
+/* input color basic*/
+input[id=ib1]{
+  width: 250px;
+}
+input[id=ia1]:focus {
+  background-color: rgb(235, 204, 232);
+}
+input[id=ib2]{
+  width: 250px;
+}
+input[id=ia2]:focus {
+  background-color: rgb(235, 204, 232);
+}
+input[id=ia3]{
+  width: 300px;
+}
+input[id=ia3]:focus {
+  background-color: rgb(235, 204, 232);
+}
+input[id=ia4]{
+  width: 200px;
+}
+input[id=ia4]:focus {
+  background-color: rgb(235, 204, 232);
+}
+input[id=ia5]{
+  width: 200px;
+}
+input[id=ia5]:focus {
+  background-color: rgb(235, 204, 232);
+}
+input[id=ia6]{
+  width: 200px;
+}
+input[id=ia6]:focus {
+  background-color: rgb(235, 204, 232);
+}
+input[id=ia7]{
+  width: 300px;
+}
+input[id=ia7]:focus {
+  background-color: rgb(235, 204, 232);
+}
+input[id=ia8]{
+  width: 300px;
+}
+input[id=ia8]:focus {
+  background-color: rgb(235, 204, 232);
+}
+
+
+/* input colour education */
+input[id=ib1]{
+  width: 300px;
+}
+input[id=ib1]:focus {
+  background-color: rgb(213, 235, 204);
+}
+input[id=ib2]:focus {
+  background-color: rgb(213, 235, 204);
+}
+input[id=ib3]{
+  width: 300px;
+}
+input[id=ib3]:focus {
+  background-color: rgb(213, 235, 204);
+}
+input[id=ib4]{
+  width: 300px;
+}
+input[id=ib4]:focus {
+  background-color: rgb(213, 235, 204);
+}
+input[id=ib5]{
+  width: 260px;
+}
+input[id=ib5]:focus {
+  background-color: rgb(213, 235, 204);
+}
+input[id=ib6]{
+  width: 200px;
+}
+input[id=ib6]:focus {
+  background-color: rgb(213, 235, 204);
+}
+
+
+/* input border jobs */
+input[id=ic1]{
+  width: 280px;
+}
+input[id=ic1]:focus {
+  background-color: rgb(250, 229, 229);
+}
+input[id=ic2]{
+  width: 280px;
+}
+input[id=ic2]:focus {
+  background-color: rgb(250, 229, 229);
+}
+input[id=ic3]{
+  width: 300px;
+}
+input[id=ic3]:focus {
+  background-color: rgb(250, 229, 229);
+}
+input[id=ic4]{
+  width: 300px;
+}
+input[id=ic4]:focus {
+  background-color: rgb(250, 229, 229);
+}
+input[id=ic5]{
+  width: 260px;
+}
+input[id=ic5]:focus {
+  background-color: rgb(250, 229, 229);
+}
+input[id=ic6]{
+  width: 200px;
+}
+input[id=ic6]:focus {
+  background-color: rgb(250, 229, 229);
+}
+
+/* input border skills */
+
+input[id=ie1]{
+  width: 300px;
+}
+input[id=ie1]:focus{
+  background-color: rgb(230, 231, 178);
+}
