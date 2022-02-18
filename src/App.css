@@ -132,23 +132,19 @@ input[type="radio"] {
   border-image-source: linear-gradient(to left, #00C853, #B2FF59);
 }
 .border-gradient-red {
-  border-image-source: linear-gradient(to left, #aa9393, #ca0202);
+  border-image-source: linear-gradient(to left, #c8eb87, #ca0202);
 }
 .border-gradient-yellow {
-  border-image-source: linear-gradient(to left, #dae765, #e6d713);
+  border-image-source: linear-gradient(to left, #a0d89b, #e6d713);
 }
 
 
 /* input color basic*/
-input[id=ib1]{
-  width: 250px;
-}
+
 input[id=ia1]:focus {
   background-color: rgb(235, 204, 232);
 }
-input[id=ib2]{
-  width: 250px;
-}
+
 input[id=ia2]:focus {
   background-color: rgb(235, 204, 232);
 }
