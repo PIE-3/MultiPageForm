@@ -1,6 +1,24 @@
+body {
+  background: linear-gradient(#d2e7e9, #cfe3e4);
+}
+
 * {
   padding: 0;
   margin: 0;
+}
+
+
+.mk{
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 0px;
+  /* margin-bottom: 80px; */
+  /* padding: 10px; */
+  width: 85%;
+  background: rgba(80, 157, 177, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(12, 76, 95, 0.6);
+  border-radius: 10px;
 }
 
 .stars {
@@ -46,10 +64,11 @@ input[type="radio"] {
 }
 
 .App .left {
-  -webkit-box-flex: 1;
+  /* -webkit-box-flex: 1;
       -ms-flex: 1;
-          flex: 1;
+          flex: 1; */
   height: 100vh;
+  /* width: 100%; */
 }
 
 .App .left input {
@@ -60,10 +79,21 @@ input[type="radio"] {
 }
 
 .App .right {
-  -webkit-box-flex: 1;
+  margin-top: 100px;
+  /* -webkit-box-flex: 1;
       -ms-flex: 1;
-          flex: 1;
-  width: 100%;
+          flex: 1; */
+          
+  width: 10vh;
+  height: 80vh;
+  margin-left: 0px;
+  margin-right: 30%;
+  margin-bottom: 20px;
+  /* padding: 10px; */
+  background: rgba(80, 157, 177, 0.5);
+  /* box-sizing: border-box; */
+  box-shadow: 0 15px 25px rgba(12, 76, 95, 0.6);
+  border-radius: 10px;
 }
 
 .App .right .right-title {
@@ -116,23 +146,44 @@ input[type="radio"] {
           transform: translateX(-50%);
   left: 0;
 }
+/* .form-control{
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+   border: 1px solid #ced4da; 
+  border-color: none !important;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} */
+
 /*# sourceMappingURL=App.css.map */
 
-
 .border-gradient {
+  /* border-color: red !important; */
   width: 150px;
   border: 10px solid;
   border-image-slice: 1;
   border-width: 4px;
 }
+/* .x{
+  background-color: red !important;
+} */
 .border-gradient-purple {
-  border-image-source: linear-gradient(to left, #743ad5, #783785);
+  border-image-source: linear-gradient(to left, #743ad5, #783785) !important;
 }
 .border-gradient-green {
-  border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+  border-image-source: linear-gradient(to left, #00C853, #B2FF59) ;
 }
 .border-gradient-red {
-  border-image-source: linear-gradient(to left, #c8eb87, #ca0202);
+  border-image-source: linear-gradient(to left, #d1bc45, #ca0202);
 }
 .border-gradient-yellow {
   border-image-source: linear-gradient(to left, #a0d89b, #e6d713);
@@ -140,46 +191,58 @@ input[type="radio"] {
 
 
 /* input color basic*/
-
+input[id=ia1]{
+  width: 120px;
+  height: 45px;;
+}
 input[id=ia1]:focus {
   background-color: rgb(235, 204, 232);
 }
-
+input[id=ia2]{
+  width: 120px;
+  height: 45px;;
+}
 input[id=ia2]:focus {
   background-color: rgb(235, 204, 232);
 }
 input[id=ia3]{
-  width: 300px;
+  width: 250px;
+  height: 45px;
 }
 input[id=ia3]:focus {
   background-color: rgb(235, 204, 232);
 }
 input[id=ia4]{
-  width: 200px;
+  width: 160px;
+  height: 45px;
 }
 input[id=ia4]:focus {
   background-color: rgb(235, 204, 232);
 }
 input[id=ia5]{
-  width: 200px;
+  width: 160px;
+  height: 45px;
 }
 input[id=ia5]:focus {
   background-color: rgb(235, 204, 232);
 }
 input[id=ia6]{
-  width: 200px;
+  width: 160px;
+  height: 45px;
 }
 input[id=ia6]:focus {
   background-color: rgb(235, 204, 232);
 }
 input[id=ia7]{
-  width: 300px;
+  width: 250px;
+  height: 45px;
 }
 input[id=ia7]:focus {
   background-color: rgb(235, 204, 232);
 }
 input[id=ia8]{
-  width: 300px;
+  width: 250px;
+  height: 45px;
 }
 input[id=ia8]:focus {
   background-color: rgb(235, 204, 232);
@@ -192,6 +255,9 @@ input[id=ib1]{
 }
 input[id=ib1]:focus {
   background-color: rgb(213, 235, 204);
+}
+input[id=ib2]{
+  width:300px;
 }
 input[id=ib2]:focus {
   background-color: rgb(213, 235, 204);
@@ -267,4 +333,181 @@ input[id=ie1]{
 }
 input[id=ie1]:focus{
   background-color: rgb(230, 231, 178);
+}
+
+
+.bt{
+  width: 200px !important;
+  height:30px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+
+.up{
+  width: 300px !important;
+  height: 38px;
+  margin-left: 30px !important;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Six+Caps);
+
+.container {
+  width: 100%;
+}
+.border-animation {
+  --border-width: 0.1em;
+  --animation-speed: 0.5s;
+  --color: #ffffff;
+  color: var(--color);
+  position: relative;
+  display: inline-block;
+  font-size: 4em;
+  line-height: 1em;
+  transform: scale(1, 0.8);
+  border: var(--border-width) solid transparent;
+}
+.border-animation .border-animation__inner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  font-family: 'Six Caps', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  padding: 0.2em;
+  background: #333;
+  z-index: 1;
+  border: solid var(--border-width) transparent;
+}
+.border-animation:before, .border-animation:after {
+  content: '';
+  position: absolute;
+  background: var(--color);
+}
+.border-animation:focus:before, .border-animation:hover:before {
+  animation: beforeBorders var(--animation-speed) forwards ease-in-out;
+}
+.border-animation:focus:after, .border-animation:hover:after {
+  animation: afterBorders var(--animation-speed) forwards ease-in-out;
+}
+.border-animation:focus, .border-animation:hover {
+  animation: borderColors var(--animation-speed) steps(1) forwards;
+  outline: none;
+}
+.border-animation:focus .border-animation__inner, .border-animation:hover .border-animation__inner {
+  animation: background calc(var(--animation-speed) / 5 * 3) forwards ease-in-out;
+  animation-delay: calc(var(--animation-speed) / 5 * 2);
+}
+@keyframes beforeBorders {
+  0% {
+    top: calc(var(--border-width) * -1);
+    left: 50%;
+    bottom: auto;
+    right: auto;
+    width: 0;
+    height: var(--border-width);
+  }
+  33% {
+    top: calc(var(--border-width) * -1);
+    left: calc(var(--border-width) * -1);
+    bottom: auto;
+    right: auto;
+    width: calc(var(--border-width) + 50%);
+    height: var(--border-width);
+  }
+  66% {
+    top: calc(var(--border-width) * -1);
+    left: calc(var(--border-width) * -1);
+    bottom: auto;
+    right: auto;
+    width: var(--border-width);
+    height: calc((var(--border-width) * 2) + 100%);
+  }
+  100% {
+    top: auto;
+    left: calc(var(--border-width) * -1);
+    bottom: calc(var(--border-width) * -1);
+    right: auto;
+    width: calc(var(--border-width) + 50%);
+    height: calc((var(--border-width) * 2) + 100%);
+  }
+}
+@keyframes afterBorders {
+  0% {
+    top: calc(var(--border-width) * -1);
+    left: auto;
+    bottom: auto;
+    right: 50%;
+    width: 0;
+    height: var(--border-width);
+  }
+  33% {
+    top: calc(var(--border-width) * -1);
+    left: auto;
+    bottom: auto;
+    right: calc(var(--border-width) * -1);
+    width: calc(var(--border-width) + 50%);
+    height: var(--border-width);
+  }
+  66% {
+    top: calc(var(--border-width) * -1);
+    left: auto;
+    bottom: auto;
+    right: calc(var(--border-width) * -1);
+    width: var(--border-width);
+    height: calc((var(--border-width) * 2) + 100%);
+  }
+  100% {
+    top: auto;
+    left: auto;
+    bottom: calc(var(--border-width) * -1);
+    right: calc(var(--border-width) * -1);
+    width: calc(var(--border-width) + 50%);
+    height: calc((var(--border-width) * 2) + 100%);
+  }
+}
+@keyframes borderColors {
+  0% {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  33% {
+    border-top-color: var(--color);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  66% {
+    border-top-color: var(--color);
+    border-right-color: var(--color);
+    border-bottom-color: transparent;
+    border-left-color: var(--color);
+  }
+  100% {
+    border-top-color: var(--color);
+    border-right-color: var(--color);
+    border-bottom-color: var(--color);
+    border-left-color: var(--color);
+  }
+}
+@keyframes background {
+  to {
+    background: #555;
+    text-shadow: 0 0.1em 0.1em #111;
+  }
+}
+@media (min-width: 850px) {
+  body {
+    justify-content: center;
+  }
+}
+@media (min-width: 1200px) {
+  .border-animation {
+    font-size: 6em;
+    line-height: 1em;
+  }
 }

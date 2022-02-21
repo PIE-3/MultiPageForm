@@ -3,6 +3,6 @@ export default function UploadForm ({uploader}){
         uploader(e.target.files[0])
     }
     return (
-        <input type="file" accept ="image/*" onChange ={handleChange}/>
+        <input className="up" type="file" accept ="image/*" onChange ={handleChange}/>
     )
 }
